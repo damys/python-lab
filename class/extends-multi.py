@@ -1,3 +1,6 @@
+"""
+多继承
+"""
 class A:
      
     def a(self):
