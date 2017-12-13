@@ -38,4 +38,9 @@ t = Teacher('Alice', 'Female', 'English')
 I am a Person, my name is Tim
 I am a Student, my name is Bob
 I am a Teacher, my name is Alice
+
+
+由于Python是动态语言，所以，传递给函数 who_am_i(x)的参数 x 不一定是 Person 或 Person 的子类型。任何数据类型的实例都可以，只要它有一个whoAmI()的方法即可：
 """
+
+
