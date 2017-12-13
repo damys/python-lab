@@ -32,3 +32,10 @@ def who_am_i(x):
 p = Person('Tim', 'Male')
 s = Student('Bob', 'Male', 88)
 t = Teacher('Alice', 'Female', 'English')
+
+"""
+运行结果：
+I am a Person, my name is Tim
+I am a Student, my name is Bob
+I am a Teacher, my name is Alice
+"""
