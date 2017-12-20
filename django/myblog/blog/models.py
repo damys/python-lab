@@ -4,5 +4,9 @@ class Article(models.Model):
     title = models.CharField(max_length=32, default='Title')
     content = models.TextField(null=True)
 
-    def __unicode__(self):
-        return  self.title
+    # add time -- auto_now=True
+    pub_time = models.DateTimeField(null=True)
+
+    # __unicode__
+    def __str__(self):
+        return self.title
