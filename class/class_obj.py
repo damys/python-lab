@@ -11,3 +11,13 @@ class Tool(object):
 tool1 = Tool('A1')
 tool2 = Tool('A2')
 tool3 = Tool('A3')
+
+
+print('工具对象总数 %d' % Tool.count)  # 3
+print('工具对象总数 %d' % tool2.count) # 3
+print('工具对象总数 %d' % tool3.count) # 3
+ 
+# 属性的获取机制：存在一个向上查找机制
+tool3.count = 99
+print('工具对象总数 %d' % Tool.count)  # 3
+print('工具对象总数 %d' % tool3.count) # 99
