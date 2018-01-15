@@ -23,3 +23,8 @@ class Tool(object):
 tool1 = Tool('A1')
 tool2 = Tool('A2')
 tool3 = Tool('A3')
+
+
+ 
+# 调用类方法
+tool1.show_tool_count() # 3
