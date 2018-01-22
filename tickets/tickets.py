@@ -31,17 +31,14 @@ class huoche(object):
 	""" 12306查询URL """
 	ticket_url = "https://kyfw.12306.cn/otn/leftTicket/init"
 
-	"""12306登录URL """
+	""" 12306登录URL """
 	login_url = "https://kyfw.12306.cn/otn/login/init"
 
-	""" """
+	""" 我的12306 """
 	initmy_url = "https://kyfw.12306.cn/otn/index/initMy12306"
 
-	""" """
+	""" 购票确认URL """
 	buy="https://kyfw.12306.cn/otn/confirmPassenger/initDc"
-	
-	""" """
-	login_url='https://kyfw.12306.cn/otn/login/init'
 	
 	def __init__(self):
 		self.driver_name='chrome'
