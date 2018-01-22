@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 @author: ppy2790
+https://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&chksm=8bcb8767bcbc0e71099f427943f61711956dafcfd2fb9cf52d3246cfa80ea174ad7ea346b0e9&idx=1&mid=2651669710&scene=0&sn=36c420dd64692c656d6c9f6183dbe90e#rd
+
 """
 from splinter.browser import Browser
 from time import sleep
